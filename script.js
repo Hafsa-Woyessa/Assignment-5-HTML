@@ -29,4 +29,4 @@ function multiplication () {
    
    document.getElementById('answer').innerHTML = answer
   }
-}
+
