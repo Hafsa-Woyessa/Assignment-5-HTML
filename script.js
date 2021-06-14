@@ -15,17 +15,13 @@ function multiplication () {
   result = 3.14 * diameter
 
   result = parseInt(result)
-  
   document.getElementById('result').innerHTML = result
 }
 function calculate () {
   diameter = document.getElementById('diameter').value
-   
   diameter = parseInt(diameter)
-  
   answer = 3.14 * (diameter / 2 * diameter / 2)
-
   answer = parseInt(answer)
 
   document.getElementById('answer').innerHTML = answer
-  }
+}
