@@ -8,7 +8,7 @@ document.getElementById('Area').addEventListener('click', calculate)
 // This lines tells the code what to calculate
 
 function multiplication () {
-  diameter = document.getElementById('diameter').value 
+  diameter = document.getElementById('diameter').value
 
   diameter = parseInt(diameter)
 
@@ -18,15 +18,14 @@ function multiplication () {
   
   document.getElementById('result').innerHTML = result
 }
- function calculate () {
-   diameter = document.getElementById('diameter').value
+function calculate () {
+  diameter = document.getElementById('diameter').value
    
-   diameter = parseInt(diameter)
+  diameter = parseInt(diameter)
   
-   answer = 3.14 *(diameter/2 *diameter/2)
+  answer = 3.14 * (diameter / 2 * diameter / 2)
 
-   answer = parseInt(answer)
-   
-   document.getElementById('answer').innerHTML = answer
+  answer = parseInt(answer)
+
+  document.getElementById('answer').innerHTML = answer
   }
-
